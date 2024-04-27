@@ -4,7 +4,7 @@
     padding: 0;
 }
 body{
-    height: 5000px;
+    height: 4650px;
     position: relative;
     z-index: 1500;
 }
@@ -113,6 +113,13 @@ h1 a {
         z-index: 1500;
     }
 
+}
+
+@media (min-width: 751px) and (max-width: 850px){
+    .container .row .firstText{
+        position: relative;
+        z-index: 1500;
+    }
 }
 
 .container .row .photcont .blue{
@@ -333,8 +340,8 @@ h1 a {
     background-color: #175CD3;
     border-radius: 50%;
     position: absolute;
-    top: 430px;
-    left: 170px;
+    top: 300px;
+    left: -40px;
 
 }
 
@@ -344,8 +351,8 @@ h1 a {
     background-color: #FCD53A;
     border-radius: 50%;
     position: absolute;
-    top: 90px;
-    left: 560px;
+    top:-30px;
+    left: 350px;
 
 }
 
@@ -373,6 +380,13 @@ h1 a {
         display: none;
     }
 
+}
+
+@media (min-width: 751px) and (max-width: 850px){
+    .section6 .parent .child .imageCont {
+        margin-bottom: 50px;
+    }
+    
 }
 
 .footerSection {
@@ -451,6 +465,12 @@ h1 a {
     }
     .footerSection .yellowDiv{
         display: none;
+    }
+}
+@media (min-width: 751px) and (max-width: 850px){
+    .footerSection .secondChild form .subscribeBtn{
+        position: relative;
+        z-index: 1600;
     }
 }
 
