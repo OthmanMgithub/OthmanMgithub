@@ -107,7 +107,7 @@ h1 a {
     border-radius: 50%;
 }
 
-@media(min-width: 300px){
+@media(min-width: 200px) and (max-width: 750px){
     .container .row .firstText{
         position: relative;
         z-index: 1500;
@@ -360,7 +360,7 @@ h1 a {
    color: black;
 }
 
-@media (min-width: 300px){
+@media (min-width: 200px) and (max-width: 750px){
     .section6 .parent .child .imageCont {
         display: flex;
         flex-direction: column;
@@ -434,7 +434,7 @@ h1 a {
     color: white;
 }
 
-@media (min-width: 300px){
+@media (min-width: 200px) and (max-width: 750px){
     .footerSection .secondChild form .subscribeBtn{
         position: relative;
         z-index: 1600;
