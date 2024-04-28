@@ -253,9 +253,6 @@ h1 a {
     cursor: pointer;
 }
 
-.section5 .scrollBySlide{    
-}
-
 .section5 .scrollBySlide .divContainer{
     display: grid;
     grid-template-columns: 750px 750px 750px;
@@ -522,3 +519,4 @@ h1 a {
 .upwardArrow img:hover{
     cursor: pointer;
 }
+

@@ -174,20 +174,23 @@
     <section class="section5">
         <div class="container">
             <div class="row d-flex justify-content-between">
-                <div class="col-md-6 col-sm-12">
+                <div class="col-md-6 col-sm-12 d-flex justify-content-between">
                     <h1 data-aos="flip-left" data-aos-delay="200">What our students say <br>about us</h1>
                 </div>
-                <div class="arrowImageContainer col-md-6 col-sm-12 d-flex justify-content-end" data-aos="flip-right" data-aos-delay="300">
-                    <img src="_Carousel arrow left.png" alt="" class="arrowImage" id="leftArrow">
-                    <a href="#">
+                <div class="arrowImageContainer">
+                    <a href="#scrollLeft" >
+                        <img src="_Carousel arrow left.png" alt="" class="arrowImage" id="leftArrow">
+                    </a>
+                    <a href="#scrollRight">
                         <img src="_Carousel arrow right.png" alt="" class="arrowImage" id="rightArrow">
                     </a>
                 </div>
+                
             </div>
         </div>
-        <div class="scrollBySlide mt-3" id="scrollParent">
+        <div class="scrollBySlide mt-3">
             <div class="divContainer" id="scroll">
-                <div class="firstDivInSlide" data-aos="flip-up" data-aos-delay="250">
+                <div class="firstDivInSlide" data-aos="flip-up" data-aos-delay="250" id="scrollLeft">
                     <div class="imageHolder">
                         <img src="man.png" alt="">
                     </div>
@@ -223,7 +226,7 @@
                         <h6 class="text-muted">Ux Designer at Google</h6>
                     </div>
                 </div>
-                <div class="firstDivInSlide" data-aos="flip-right" data-aos-delay="400">
+                <div class="firstDivInSlide" data-aos="flip-right" data-aos-delay="400" id="scrollRight">
                     <div class="imageHolder">
                         <img src="man2.png" alt="">
                     </div>
@@ -241,6 +244,14 @@
                         <h6 class="text-muted">Ux Designer at Google</h6>
                     </div>
                 </div>
+            </div>
+        </div>
+        <div class="arrows">
+            <div class="goLeft">
+                
+            </div>
+            <div class="goRight">
+                
             </div>
         </div>
         <div class="container mt-5 parent">

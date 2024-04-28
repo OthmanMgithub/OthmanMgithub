@@ -4,8 +4,7 @@ let right = document.getElementById("rightArrow");
 let left = document.getElementById("leftArrow");
 let body = document.getElementsByTagName("body");
 
-right.addEventListener("click" , (e)=>{
-    e.preventDefault();
+right.addEventListener("click" , (){
     scrollp.scrollTo("500" , "0")
 })
 
