@@ -4,26 +4,22 @@ let right = document.getElementById("rightArrow");
 let left = document.getElementById("leftArrow");
 let body = document.getElementsByTagName("body");
 
-right.addEventListener('click' , ()=>{
-    scrollp.scrollBy(500 , 0);
-});
+right.addEventListener("click" , (e)=>{
+    e.preventDefault();
+    scrollp.scrollTo("500" , "0")
+})
 
-left.addEventListener('click' , ()=>{
-    scrollp.scrollBy(-500 , 0);
+let upward = document.getElementById("arrowUp");
+
+
+  upward.addEventListener('click' , ()=> {
+    window.scrollTo(0 , 0);
 });
 
 
 let input = document.getElementById("input");
 let sBtn = document.getElementsByClassName("subscribeBtn");
-
-let upward = document.getElementById("arrowUp");
-
-upward.addEventListener('click' , ()=> {
-    window.scrollTo(0 , 0);
-});
-
 let val = input.value;
-
 let num = 10;
 
 sBtn.addEventListener('click' , (evt)=>{
@@ -32,6 +28,12 @@ sBtn.addEventListener('click' , (evt)=>{
         console.log(val);
     }
     else{
-        console.error("should type 10 characters at least");
+        alert("you should type 10 characters minimum")
     }
 });
+
+let contact = document.querySelector(".contactBtn");
+
+contact.addEventListener("click", ()=>{
+    console.log("this is our number: 000000");
+})

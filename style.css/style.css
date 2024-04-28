@@ -510,6 +510,7 @@ h1 a {
     position: fixed;
     top: 90%;
     right: 50px;
+    opacity: 1;
 }
 
 .upwardArrow img{
@@ -521,8 +522,3 @@ h1 a {
 .upwardArrow img:hover{
     cursor: pointer;
 }
-
-
-
-
-
