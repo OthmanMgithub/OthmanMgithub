@@ -13,7 +13,7 @@ nav{
     top: 0px;
     background-color: #FFFFFF;
     box-shadow: 0px 4px 6px -5px  #101828;
-    z-index: 10000;
+    z-index: 10500;
 }
 
 svg{
@@ -43,12 +43,13 @@ ul li{
 }
 ul li a {
     text-decoration: none;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 ul li a:hover {
    text-decoration: underline;
 }
+
 button{
     margin-left: 20px;
 }
@@ -212,8 +213,10 @@ h1 a {
     0%{
         background-color: #FFFFFF;
     }
+    
     100%{
         background-color: black;
+        transform: scale(1.1);
     }
 }
 

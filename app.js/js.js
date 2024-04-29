@@ -35,4 +35,5 @@ let contact = document.querySelector(".contactBtn");
 
 contact.addEventListener("click", ()=>{
     console.log("this is our number: 000000");
+
 })
